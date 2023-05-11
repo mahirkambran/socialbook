@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialBook</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/d2f99061b3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><img src="images/notification.png"></li>
+                <li><img src="images/inbox.png" ></li>
+                <li><img src="images/video.png" ></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/profile-pic.png">
+            </div>
+        </div>
+        <!-- settings menu---------------------------------- -->
+        <div class="settings-menu">
+
+            <div id="dark-btn" >
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p>John Nicholas</p>
+                        <a href="#">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new Design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings-links">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="#">settings & Privacy<img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="#">Help & Support<img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="#">Display & Accessebility<img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="#">Logout<img src="images/arrow.png" width="10px"></a>
+                </div>
+            </div>
+            
+        </div>
+
+    </nav>
+    <div class="container">
+        <!-- left-sidebar---------------------------------- -->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="images/news.png"> Latest News </a>
+                <a href="#"><img src="images/friends.png"> Friends </a>
+                <a href="#"><img src="images/group.png"> Group </a>
+                <a href="#"><img src="images/marketplace.png"> Marketplace </a>
+                <a href="#"><img src="images/watch.png"> Watch </a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your ShortCuts</p>
+                <a href="#"><img src="images/shortcut-1.png"> Web Developers</a>
+                <a href="#"><img src="images/shortcut-2.png"> Web Design Course</a>
+                <a href="#"><img src="images/shortcut-3.png"> Full Stack development</a>
+                <a href="#"><img src="images/shortcut-4.png"> Website Experts</a>
+            </div>
+        </div>
+        <!-- main-content---------------- -->
+        <div class="main-content">
+            
+
+
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="images/upload.png">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="images/member-1.png">
+                    <p>Alison</p>
+                </div>
+                <div class="story story3">
+                    <img src="images/member-2.png">
+                    <p>Jackson</p>
+                </div>
+                <div class="story story4">
+                    <img src="images/member-3.png">
+                    <p>Jessica</p>
+                </div>
+                <div class="story story5">
+                    <img src="images/member-4.png">
+                    <p>Monic</p>
+                </div>
+            </div>
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p>John Nicholas</p>
+                        <small>Public</small><i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="what's on your mind , john ?"></textarea>
+                </div>
+                <div class="add-post-links">
+                    <a href="#"><img src="images/live-video.png"> Live Video</a>
+                    <a href="#"><img src="images/photo.png">Photo/Video</a>
+                    <a href="#"><img src="images/feeling.png">Feeling/Activity</a>
+                </div>
+            </div>
+
+            <!-- ------------------------------------------------------------------ -->
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>John Nicholas</p>
+                           <span>June 24 2032,1:48 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+               
+                <p class="post-text">Lorem ipsum dolor sit amet, <span>consectetur adipiscing elit</span>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet porttitor eget dolor morbi non arcu. Faucibus et molestie ac feugiat. Eget gravida cum sociis natoque. Vestibulum lectus mauris ultrices eros in cursus turpis massa tincidunt. Justo donec enim diam vulputate. Neque viverra justo nec ultrices dui sapien eget mi proin. Suspendisse potenti nullam ac tortor vitae purus faucibus. In fermentum et sollicitudin ac orci. Ultricies tristique nulla aliquet enim tortor. Quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus.<a href="#">#masha</a> <a href="#">#BAASHA</a></p>
+                <img src="images/feed-image-1.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="">120</div>
+                        <div><img src="images/comments.png" alt="">70</div>
+                        <div><img src="images/share.png" alt="">33</div>
+                    </div>
+                    <div class="post-profile-icons">
+                        <img src="images/profile-pic.png" alt=""><i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ------------------------------------------------------------------ -->
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/member-2.png">
+                        <div>
+                            <p>Jacob</p>
+                           <span>June 26 2032,6:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+               
+                <p class="post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Qare arcu odio ut sem nulla <span>pharetra diam. Est pl</span>pharetra diam. Est placerat in egestas erat. Senectus et netus et malesuada fames ac turpis egestas. Vitae ultricies leo inte</p>
+                <img src="images/feed-image-2.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="">532</div>
+                        <div><img src="images/comments.png" alt="">65</div>
+                        <div><img src="images/share.png" alt="">15</div>
+                    </div>
+                    <div class="post-profile-icons">
+                        <img src="images/profile-pic.png" alt=""><i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ------------------------------------------------------------------ -->
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/member-9.png">
+                        <div>
+                            <p>Manaadiyars</p>
+                           <span>June 24 2022,1:00 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+               
+                <p class="post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <a href="#">#BAASerddHA</a></p>
+                <img src="images/feed-image-3.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="">245</div>
+                        <div><img src="images/comments.png" alt="">56</div>
+                        <div><img src="images/share.png" alt="">39</div>
+                    </div>
+                    <div class="post-profile-icons">
+                        <img src="images/profile-pic.png" alt=""><i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- ------------------------------------------------------------------ -->
+
+
+            <button type="button" class="load-more-btn">Load More</button>
+
+
+        </div>
+        <!-- right-sidebar---------------- -->
+        <div class="right-sidebar">
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p><i class="fa-solid fa-location-dot"></i> Willson Tech Paek</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>19</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile Marketing</h4>
+                    <p><i class="fa-solid fa-location-dot"></i> Willson Tech Paek</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>2</h3>
+                    <span>May</span>
+                </div>
+                <div class="right-event">
+                    <h4>Drop Shipping</h4>
+                    <p><i class="fa-solid fa-location-dot"></i> Willson Tech Paek</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="images/advertisement.png" class="sidebar-ads">
+
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-1.png">
+                </div>
+                <p>Sona Baheri</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-2.png">
+                </div>
+                <p>Alison Mina</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-3.png">
+                </div>
+                <p>Don Bosco</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright 2023 - <author>mahirkambran</author></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+<!-- 47 mints easy tutorial    -----28/04/2023[11:20] -->
+<!-- 01 hours easy tutorial    -----30/04/2023[01:01] -->
